@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label alignment="CENTER" layoutX="33.0" layoutY="101.0" prefHeight="24.0" prefWidth="282.0" text="IKEA MOA PHILIPPINE">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="name1" layoutX="5.0" layoutY="291.0" prefHeight="18.0" prefWidth="114.0" text="Label" />
+      <Label fx:id="name2" layoutX="6.0" layoutY="320.0" prefHeight="18.0" prefWidth="114.0" text="Label" />
+      <Label fx:id="name3" layoutX="5.0" layoutY="347.0" prefHeight="18.0" prefWidth="114.0" text="Label" />
+      <Label fx:id="price1" layoutX="146.0" layoutY="291.0" text="Label" />
+      <Label fx:id="price2" layoutX="146.0" layoutY="320.0" text="Label" />
+      <Label fx:id="price3" layoutX="146.0" layoutY="347.0" text="Label" />
+      <Label fx:id="qty1" layoutX="202.0" layoutY="291.0" text="Label" />
+      <Label fx:id="qty2" layoutX="202.0" layoutY="320.0" text="Label" />
+      <Label fx:id="qty3" layoutX="202.0" layoutY="347.0" text="Label" />
+      <Label fx:id="lineTotalAmount1" layoutX="290.0" layoutY="291.0" text="Label" />
+      <Label fx:id="lineTotalAmount2" layoutX="292.0" layoutY="320.0" text="Label" />
+      <Label fx:id="lineTotalAmount3" layoutX="290.0" layoutY="347.0" text="Label" />
+      <Label layoutX="144.0" layoutY="263.0" text="PRICE" />
+      <Label layoutX="202.0" layoutY="263.0" text="QUANTITY" />
+      <Label layoutX="278.0" layoutY="263.0" text="AMOUNT" />
+      <Label layoutX="142.0" layoutY="396.0" text="TOTAL AMOUNT :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="finalAmount" layoutX="286.0" layoutY="396.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ImageView fitHeight="86.0" fitWidth="256.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/ikea-logo-black-white.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="62.0" layoutY="125.0" prefHeight="33.0" prefWidth="255.0" text=" 10:30 AM - 8:00 PM MONDAY TO SUNDAY ">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="122.79998779296875" layoutX="185.0" layoutY="170.0" startX="-142.8000030517578" />
+      <ImageView fitHeight="61.0" fitWidth="213.0" layoutX="67.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/barcode.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
